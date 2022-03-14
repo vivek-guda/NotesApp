@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  background-color: #333;
+  color: #ddd;
+}
+
+.nav-ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  margin: 0 0.5rem;
+}
+
+.social-icons {
+  height: 1.1rem;
+}
+
+@media (max-width: 400px) {
+  .nav {
+    padding: 0.5rem 1rem;
+  }
+}
